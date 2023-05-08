@@ -1,0 +1,272 @@
+
+
+.bgheader {
+    background-image: url("image/Systeemintegratie.jpg") ; 
+    background-color: #cccccc;
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+.bgbody {
+    background-color: #cccccc;
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+
+.headertext {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 20px;
+  }
+
+.myimg {
+    height: 200px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.timg{
+    height: 200px;
+}
+
+
+@font-face {
+    font-family: ekkamainew;
+    src: url(font/EkkamaiNew-Regular.ttf);
+}
+form{
+    font-family: ekkamainew;
+}
+
+.btnvm{
+    text-align: center;
+    bottom: 10px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+h3{
+    padding-top: 20px;
+}
+
+.bodytext {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 20px;
+  }
+
+footer{
+    background: rgb(79, 78, 78, 0.3);
+    height: 100px;
+
+}
+
+a:link, a:visited { 
+   
+    cursor: auto;
+    text-decoration: none !important;
+    font-family: ekkamainew;
+    text-align: center;
+    vertical-align: baseline;
+  }
+  
+a.nav-link{
+    font-family: ekkamainew;
+    text-align: center;
+    vertical-align: baseline;
+    color: #555;
+}
+a.navbar-brand{
+  font-family: ekkamainew;
+  text-align: center;
+  vertical-align: baseline;
+  color: #555;
+}
+li.nav-item{
+  font-family: ekkamainew;
+  text-align: center;
+  vertical-align: baseline;
+  color: #555;
+}
+p{
+  font-family: ekkamainew;
+  
+}
+h3{
+  font-family: ekkamainew;
+  
+}
+h5{
+  font-family: ekkamainew;
+  
+}
+.tab-pane{
+    margin-top: 20px;
+}
+
+i{
+    font-size: 30px;
+    text-align: right;
+}
+
+form.search {
+    border: none;
+    max-width: 400px;
+  }
+  
+input.search {
+    max-width: 400px;
+    height: 30px;
+    border: 1px solid #555;
+    border-radius: 10px;
+    display: block;
+    padding: 9px 4px 9px 40px;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+  }
+
+h5{
+    border-bottom: #555;
+}
+
+div.absolute{
+    position: absolute;
+    right: 50%;
+
+}
+div.relative {
+    position: relative;
+
+
+  }
+  div.static {
+    position: static;
+    top: 100px;
+    right: 100px;
+  }
+  
+p.time{
+    text-align: center;
+}
+
+.checked {
+    color: orange;
+  }
+
+  
+/* Container for skill bars */
+.scorebar{
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    border-radius: 10px;
+  }
+
+  
+  p.star{
+    text-align: left;
+  }
+
+  .score5{width: 70%; background-color: orange;} 
+  .score4{width: 20%; background-color: orange;} 
+  .score3{width: 10%; background-color: orange;} 
+  .score2{width: 5%; background-color: orange;} 
+  .score1{width: 1%; background-color: orange;} 
+
+  #myDIV {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+
+  .shadow2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+ .signup{
+     border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+
+  .login{
+      border-radius: 20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      margin-top: 5%;
+  }
+  
+
+  .center{
+    text-align: center;
+  }
+
+  .icon{
+      padding: 1em;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: rgb(255, 255, 255);
+  }
+
+  .pbt{
+      padding-bottom: 20px;
+  }
+
+  .add{
+      text-align: right;
+
+  }
+
+  .error {
+    width:  100%;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+
+  }
+
+  .success {
+      width: 100%;
+      color: #3c763d;
+      background: #dff9d8;
+      border:  1px solid #3c763d;
+  }
+
+  .progress-label-left
+{
+    float: left;
+    margin-right: 0.5em;
+    line-height: 1em;
+}
+.progress-label-right
+{
+    float: right;
+    margin-left: 0.3em;
+    line-height: 1em;
+}
+.star-light
+{
+	color:#e9ecef;
+}
+
+table.sreach{
+  position: absolute;
+}
+
+  
